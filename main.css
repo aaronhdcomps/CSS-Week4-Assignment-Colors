@@ -50,20 +50,46 @@
   }
   .prod_img {
     float: left;
-    max-height: 320px;
-    width: auto;
+    margin-left: 15%;
+    height: auto;
+    max-width: 150px;
+    width: 50%;
   }
-  .content {
+
+  .scene_img{
+    float: right;
+
+  }
+
+  .title {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .date {
+    float: right;
+    margin-right: 15%;
+  }
+
+  .article {
     padding: 10px;
     height: 200px;
   }
 
   .content h1{
     float: left;
+    width: 50%;
   }
 
-  .content p{
+  .content h2{
     float: left;
+    width: 55%
+  }
+
+  .article p{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   footer {
@@ -71,5 +97,8 @@
     width: auto;
     color: #ffffff;
     background-color: #424242;
-    margin: 0;
+    border-top: 400px;
+    margin-top: 400px;
+    height: 180px;
+    text-align: center;
 }
